@@ -131,4 +131,4 @@ So, if you are in a view controller and want to be to a view controller A, you w
 `self.mainCoordinator.callA()`
 
 ## Project Example:
-If you have any problem or just want some reference, download the example here: . 
+If you have any problem or just want some reference, download the example here: https://github.com/FelipeSantana16/CoordinatorFKExample.
