@@ -15,6 +15,6 @@ FOUNDATION_EXPORT const unsigned char CoordinatorFKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <CoordinatorFK/PublicHeader.h>
 
-#import<CoordinatorFK/Coordinator.h>
-#import<CoordinatorFK/Coordinatable.h>
-#import<CoordinatorFK/MainCoordinator.h>
+#import "Coordinator.h"
+#import "Coordinatable.h"
+#import "MainCoordinator.h"
