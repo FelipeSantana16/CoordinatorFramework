@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package (
-    name: "CoordinatorFramework",
+    name: "CoordinatorFK",
     platforms: [
         .iOS(.v14) 
     ],
     products: [
         .library(
-            name: "CoordinatorFramework",
-            targets: ["CoordinatorFramework"]),
+            name: "CoordinatorFK",
+            targets: ["CoordinatorFK"]),
     ],
     targets: [
         .target(
-            name: "CoordinatorFramework",
-            path: "CoordinatorFramework",
+            name: "CoordinatorFK",
+            path: "CoordinatorFK",
             publicHeadersPath: "")
     ]
 )
