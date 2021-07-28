@@ -66,7 +66,7 @@ window?.makeKeyAndVisible()
 ```
 
 Example:
-
+![Set Delegate Example](https://user-images.githubusercontent.com/39348130/127339734-21fa9928-78df-4769-9751-77ed8c1a59fb.png)
 
 3. Set Coordinatable View Controllers
 
@@ -86,7 +86,7 @@ class ViewController: UIViewController, Coordinatable {
 ```
 
 Example:
-
+![Conform to Coordinatable Protocol](https://user-images.githubusercontent.com/39348130/127339738-e50811a5-bae9-4e6f-a7a6-335681ec384a.png)
 
 5. Add Events
 
@@ -119,13 +119,16 @@ extension MainCoordinator {
 
 Obs.: Remember that your view controller must to conform with Coordinatable pattern!
 
+Example:
+![Adding events](https://user-images.githubusercontent.com/39348130/127339730-c9f5c114-2e2c-4dc9-a98c-46f33f6d3252.png)
+
 7. How to call a View Controller
 
 Inside your view controller, when you want to go to another view controller, you will use the mainCoordinator. Your view controller doesn't know that another view controller exists. It just informs you that an event has occurred (that's why the functions to call other view controllers are called events), passes the necessary data, and the mainCoordinator decides who will call.
 
 So, if you are in a view controller and want to be to a view controller A, you will do the following inside your view controlelr:
 
-`slef.mainCoordinator.callA()`
+`self.mainCoordinator.callA()`
 
 ## Project Example:
 If you have any problem or just want some reference, download the example here: . 
