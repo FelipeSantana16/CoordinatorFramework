@@ -12,6 +12,8 @@
 @implementation MainCoordinator
 
 
+/// @Brief This is the init from coordinator
+/// @param navigation This param get a UINavigationController
 - (instancetype) initWithNavigation:(UINavigationController *)navigation {
     self = [super init];
     if (self) {
